@@ -15,6 +15,15 @@ from .cuhk02 import CUHK02
 from .sensereid import SenseReID
 from .ThreeDPeS import ThreeDPeS
 from .personx import PersonX
+from .celeb import Celeb
+from .celeblight import  CelebLight
+from .cocas import  Cocas
+from .deepchange import  DeepChange
+from .last import  LaST
+from .ltcc import  LTCC
+from .prcc import  PRCC
+from .real28 import  Real28
+from .vcclothes import  VCClothes
 
 __factory = {
     'market1501': Market1501,
@@ -32,6 +41,15 @@ __factory = {
     'sensereid': SenseReID,
     '3dpes': ThreeDPeS,
     'personx': PersonX,
+    'cocas':  Cocas,
+    'celeb':  Celeb,
+    'celeblight':  CelebLight,
+    'deepchange':  DeepChange,
+    'last':  LaST,
+    'ltcc':  LTCC,
+    'prcc':  PRCC,
+    'real28':  Real28,
+    'vcclothes':  VCClothes
 }
 
 
